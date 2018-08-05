@@ -1,0 +1,26 @@
+{
+  "name": "clean-coding-dojo-es6",
+  "version": "1.0.0",
+  "description": "Project base ready-to-use in coding dojos",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ByIvo/clean-coding-dojo-es6.git"
+  },
+  "keywords": [
+    "dojo",
+    "clean",
+    "coding",
+    "es6"
+  ],
+  "author": "ByIvo <irbatistela@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ByIvo/clean-coding-dojo-es6/issues"
+  },
+  "homepage": "https://github.com/ByIvo/clean-coding-dojo-es6#readme"
+}

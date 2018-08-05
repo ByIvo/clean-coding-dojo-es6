@@ -4,8 +4,7 @@
   "description": "Project base ready-to-use in coding dojos",
   "main": "index.js",
   "scripts": {
-    "start": "",
-    "test": "test"
+    "test": "mocha -R spec --compilers js:babel-core/register test/**/*_spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/ByIvo/clean-coding-dojo-es6/issues"
   },
-  "homepage": "https://github.com/ByIvo/clean-coding-dojo-es6#readme"
+  "homepage": "https://github.com/ByIvo/clean-coding-dojo-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node8": "^1.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  }
 }

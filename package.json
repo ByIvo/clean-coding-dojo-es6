@@ -4,6 +4,7 @@
   "description": "Project base ready-to-use in coding dojos",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node index.js",
     "test": "mocha -R spec --compilers js:babel-core/register test/**/*_spec.js"
   },
   "repository": {
